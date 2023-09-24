@@ -8,12 +8,12 @@ class User {
 
   const User.empty()
       : this(
-            id: -1,
+            id: '-1',
             createdAt: '_empty.createdAT',
             name: '_empty.name',
             avatar: '_empty.avatar');
 
-  final int id;
+  final String id;
   final String createdAt;
   final String name;
   final String avatar;
